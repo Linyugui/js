@@ -56,6 +56,7 @@ function display(data) {
 			str = str + data[j]+" ";
 		console.log(str);
 	}
+	console.log();
 }
 function check(data)
 {

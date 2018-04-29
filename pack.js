@@ -13,7 +13,7 @@ function primeIn(x) {
 		console.log("null");
 	else
 	{
-		for(var i = 2; i <= 100 ;i++)
+		for(var i = 2; i <= x ;i++)
 		{
 			var flag = true;
 			for (var j = 2; j <= i/2; j++) {

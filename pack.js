@@ -41,10 +41,10 @@ function intersect(a,b) {
 		str+=b.slice(0,b.length-i).split("").reverse().join("");
 	console.log(str);
 }
-function car_selection(car) {
+function car_selection(car,value) {
 	// body...
 	for (var i in car) {
-		if(car[i]<95)
+		if(car[i]<value)
 			console.log(i);
 	}
 }
@@ -128,7 +128,7 @@ var str2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 intersect(str1,str2);
 
 var car={'benz-S800':80,'bmw-X7':90,'maybach':120,'lada':10};
-car_selection(car);
+car_selection(car,95);
 
 var data = [];
 sudoku(0,8,data);
